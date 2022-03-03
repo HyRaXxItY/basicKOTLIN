@@ -1,11 +1,5 @@
-//fun main(args: Array<String>) {
-//    println("Hello World!")
-//
-//    // Try adding program arguments via Run/Debug configuration.
-//    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-//    println("Program arguments: ${args.joinToString()}")
-//}
 
+// every file in kotlin starts with `main` function
 
 fun main(){
 
@@ -14,9 +8,9 @@ fun main(){
 
 //TODO-1: code for basic syntax and all
 
-/*
 
-    val name = "ginko" // val is a variable that cannot be changed once it is instantiated
+
+    val name = "ginko" // val is a variable that cannot be changed afterwards
 
     var nameno = "noru"  // var is a variable that can be changed afterwards
 
@@ -24,6 +18,7 @@ fun main(){
 
     var address: String
     address = " urawa " // this way we can do 2step var assigning ( not advisable / redundant  )
+
 
     val myNum = 5             // Int
     val myDoubleNum = 5.99    // Double precision upto 15 digit ( float have precision upto 6 digit)
@@ -43,7 +38,7 @@ fun main(){
 
 
 
-*/
+
 
 //TODO-2: code for String , boolean
 
@@ -66,11 +61,20 @@ fun main(){
     val no = " no my son "
     println(" you are a terrorist $yes ")
     println("you are a terrorist? $no ")
+    val note: Int? = null /*if we want to assign "null" to any variable , then we must use question mark after the data
+                            type declaration */
+                            // NULL ==> nothing ( quite literally )
+    println(note)
 
 
     // boolean
     val x = 10
-    println( 100 >= x)
-    println()
+    val bruh = false
+    val y = 21
+
+    println( 100 >= x) // it outputs 'true' as the condition is satisfied
+    // there can be other conditional operators like >=  <= !=
+
+    println(bruh) // prints the boolean value of variable "bruh"
 
 }
