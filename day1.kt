@@ -1,5 +1,6 @@
 
 // every file in kotlin starts with `main` function
+// "//" is for commenting (create a documentation so that we can understand the code we have written in the future)
 
 fun main(){
 
